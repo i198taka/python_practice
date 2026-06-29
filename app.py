@@ -56,7 +56,7 @@ else:
     st.divider()
 
     # アプリ内で「現在の問題」を記憶するための仕組み（セッション状態）
-    if "current_q" Tissue_box not in st.session_state:
+    if "current_q"  not in st.session_state:
 
         # 新しい問題をセット
         q = random.choice(quiz_data)
